@@ -1,72 +1,314 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Presentación</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .container {
-            background: white;
-            width: 80%;
-            margin: 50px auto;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.2);
-        }
+    <title>Valentín Basel</title>
 
-        h1 {
-            color: #0077cc;
-        }
+    <meta name="description"
+          content="Sitio personal de Valentín Basel. Investigación, docencia, software libre y tecnología educativa.">
 
-        img {
-            width: 300px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        .links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 15px;
-            background: #0077cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        .links a:hover {
-            background: #005fa3;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Dr. Valentín Basel</h1>
+    <!-- Navegación -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="site-title">Valentín Basel</a>
 
-        <p>Este es un texto de ejemplo donde podés explicar de qué trata tu presentación.</p>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#investigacion">Investigación</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#docencia">Docencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Imagen -->
-        <img src="img/valentin.jpg" alt="Foto de Valentín Basel">
 
-        <p>Podés agregar más texto explicativo acá.</p>
+    <main>
 
-        <!-- Enlaces -->
-        <div class="links">
-            <a href="https://www.ejemplo1.com" target="_blank">Enlace 1</a>
-            <a href="https://www.ejemplo2.com" target="_blank">Enlace 2</a>
-            <a href="https://www.ejemplo3.com" target="_blank">Enlace 3</a>
+        <!-- Presentación -->
+        <section class="hero">
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    Educación · Tecnología · Software libre
+                </p>
+
+                <h1>Valentín Basel</h1>
+
+                <p class="lead">
+                    Investigador y docente interesado en las relaciones entre
+                    educación, tecnología y ciencias de la computación.
+                </p>
+
+                <div class="hero-links">
+                    <a href="#sobre-mi" class="button">
+                        Conocer más
+                    </a>
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener">
+                        GitHub →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="section">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h2>Sobre mí</h2>
+            </div>
+
+            <div class="content-grid">
+
+                <div>
+                    <p>
+                        Soy Analista en Sistemas Informáticos, Licenciado en
+                        Tecnología Educativa y Doctor en Educación en Ciencia
+                        Básica y Tecnología.
+                    </p>
+
+                    <p>
+                        Actualmente desarrollo actividades de investigación,
+                        desarrollo de software y docencia, trabajando en la
+                        intersección entre educación, computación y ciencias
+                        sociales.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <div>
+                        <strong>Investigación</strong>
+                        <span>Educación y tecnología</span>
+                    </div>
+
+                    <div>
+                        <strong>Desarrollo</strong>
+                        <span>Software libre y herramientas educativas</span>
+                    </div>
+
+                    <div>
+                        <strong>Docencia</strong>
+                        <span>Programación y ciencias de la computación</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Investigación -->
+        <section id="investigacion" class="section section-alt">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Investigación</h2>
+            </div>
+
+            <div class="research">
+
+                <article>
+                    <h3>Educación y tecnología</h3>
+
+                    <p>
+                        Investigación sobre procesos de enseñanza y aprendizaje
+                        mediados por tecnologías digitales, con especial
+                        interés en la enseñanza de la programación.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Computación educativa</h3>
+
+                    <p>
+                        Programación, robótica, pensamiento computacional y
+                        desarrollo de propuestas educativas basadas en
+                        tecnologías abiertas.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Ciencias sociales y computación</h3>
+
+                    <p>
+                        Desarrollo de herramientas digitales para investigación
+                        cualitativa y análisis de datos en ciencias sociales.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Software -->
+        <section id="software" class="section">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Software</h2>
+            </div>
+
+            <div class="projects">
+
+                <article class="project">
+                    <div class="project-number">01</div>
+
+                    <div>
+                        <h3>SATURAR</h3>
+
+                        <p>
+                            Software libre para el análisis de datos cualitativos.
+                            Herramienta orientada a investigadores de ciencias
+                            sociales y educación.
+                        </p>
+
+                        <a href="https://satur.ar"
+                           target="_blank"
+                           rel="noopener">
+                            satur.ar →
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project">
+                    <div class="project-number">02</div>
+
+                    <div>
+                        <h3>Pidhlecs</h3>
+
+                        <p>
+                            Programa de investigación y desarrollo de
+                            herramientas digitales libres para educación y
+                            ciencias sociales.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="project">
+                    <div class="project-number">03</div>
+
+                    <div>
+                        <h3>Otros proyectos</h3>
+
+                        <p>
+                            Desarrollo de herramientas educativas, experiencias
+                            con hardware libre, Python, microcontroladores y
+                            tecnologías abiertas.
+                        </p>
+
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener">
+                            Ver proyectos →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Docencia -->
+        <section id="docencia" class="section section-alt">
+
+            <div class="section-heading">
+                <span>04</span>
+                <h2>Docencia</h2>
+            </div>
+
+            <div class="teaching">
+
+                <p>
+                    Mi actividad docente se centra principalmente en la
+                    enseñanza de la programación, la computación y el uso
+                    crítico de tecnologías digitales.
+                </p>
+
+                <ul>
+                    <li>Introducción a la programación</li>
+                    <li>Python y análisis de datos</li>
+                    <li>Ciencias de la computación</li>
+                    <li>Robótica educativa</li>
+                    <li>Software y hardware libre</li>
+                    <li>Herramientas digitales para investigación</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contacto -->
+        <section id="contacto" class="section contact">
+
+            <div class="section-heading">
+                <span>05</span>
+                <h2>Contacto</h2>
+            </div>
+
+            <p>
+                Para consultas académicas, proyectos de investigación,
+                desarrollo de software o actividades de formación:
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:tu-email@ejemplo.com">
+                    tu-email@ejemplo.com
+                </a>
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   rel="noopener">
+                    GitHub
+                </a>
+
+                <a href="#">
+                    ORCID
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Pie -->
+    <footer class="site-footer">
+
+        <div>
+            © 2026 Valentín Basel
         </div>
-    </div>
+
+        <div>
+            Software libre · Educación · Tecnología
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
+
+
