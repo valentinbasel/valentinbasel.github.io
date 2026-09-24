@@ -7,7 +7,7 @@ permalink: /enlaces/
 
 [saturar - Software para analisis de datos cualitativo](https://saturar.conicet.unc.edu.ar/)
 
-[Mirani - laboratorio interdisciplinar de producción de ficciones digitales](https://mitani.conicet.unc.edu.ar/)
+[Mitani - laboratorio interdisciplinar de producción de ficciones digitales](https://mitani.conicet.unc.edu.ar/)
 
 [ Programa de Investigación y desarrollo de herramientas digitales libres para educación y ciencias sociales (Pidhlecs)](https://ciecs.conicet.gov.ar/id-en-software-libre/)
 
