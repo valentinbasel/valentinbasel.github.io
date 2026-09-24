@@ -23,7 +23,7 @@ email: valentinbasel@unc.edu.ar
 description: >- # this means to ignore newlines until "baseurl:"
  En este sitio comparto mis proyectos de software y hardware, publicaciones, materiales educativos, investigaciones y otros trabajos relacionados con la informática y la educación.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://valentinbasel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 
 github_username:  valentinbasel
