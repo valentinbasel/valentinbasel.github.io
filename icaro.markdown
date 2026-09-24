@@ -1,6 +1,6 @@
 ---
 layout: page
-title: icaro
+title: Icaro
 permalink: /icaro/
 ---
 
